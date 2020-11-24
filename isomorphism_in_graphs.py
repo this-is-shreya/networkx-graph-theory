@@ -5,9 +5,8 @@ Created on Thu Jul 30 12:48:30 2020
 @author: shrey
 """
 
-#Shreya Srivastava
-#19BCP123
-import networkx as nx #this library helps in representing networks via graphs
+
+import networkx as nx 
 
 G=nx.Graph()#creating an undirected graph G
 

@@ -5,8 +5,7 @@ Created on Fri Nov 13 11:56:40 2020
 @author: shrey
 """
 
-#Shreya Srivastava
-#19BCP123
+
 import networkx as nx  
 
 nodes=input("enter the nodes/vertices of the graph separated by comma").split(',')

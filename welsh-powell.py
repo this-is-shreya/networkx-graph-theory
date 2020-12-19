@@ -14,7 +14,7 @@ G=nx.Graph()
 for i in range(len(nodes)):
     G.add_node(nodes[i])#adding the node in G
 no_of_edges=int(input("enter no. of edges"))
-print("enter the pair of nodes, where the edge is present, with the weight,all separated by comma")
+print("enter the pair of nodes, where the edge is present,all separated by comma")
 
 for i in range(no_of_edges):
     b=input().split(',')#consists of list of nodes where an edge is present, so, if

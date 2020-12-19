@@ -23,7 +23,7 @@ for i in range(no_of_edges):
 
 d=nx.greedy_color(G,strategy="random_sequential")#assigns colours to nodes
 #such that no two adjacent nodes have the same colour
-# say there are 3 nodes, A,B,C , in a cycle, then d={A:0,B:1,C:2}[this form is known as dictionary]
+# say there are 3 nodes, A,B,C , in a cycle, then d={A:0,B:1,C:2}
 #where 0,1,2 are the colours assigned
 
 l=list(d.values())#we will extract those values from the dictionary and convert it into a list
